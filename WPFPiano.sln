@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPiano", "WPFPiano.csproj", "{427FE97F-1F16-4727-9FD1-6A5100223AE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{427FE97F-1F16-4727-9FD1-6A5100223AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427FE97F-1F16-4727-9FD1-6A5100223AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427FE97F-1F16-4727-9FD1-6A5100223AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427FE97F-1F16-4727-9FD1-6A5100223AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C04DC74-B5FB-47B7-9A3B-2281646D1785}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFPiano.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFPiano"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1100">
+    <Grid Margin="0,0,0,-6" HorizontalAlignment="Center" Width="950">
+        <Button x:Name="Do" Content="До" HorizontalAlignment="Left" Margin="36,259,0,0" VerticalAlignment="Top" Height="277" Width="81" Background="#FFF8F3F3"/>
+        <Button x:Name="_1" Content="C#" HorizontalAlignment="Left" Margin="117,211,0,0" VerticalAlignment="Top" Height="189" Background="#FF0C0707" Foreground="#FFF1E0E0" Click="Do_dies_Click" Width="58"/>
+        <Button x:Name="_0" Content="C" HorizontalAlignment="Left" Margin="36,259,0,0" VerticalAlignment="Top" Height="277" Width="81" Background="#FFF8F3F3" Click="Do_Copy_Click"/>
+        <Button x:Name="_2" Content="D" HorizontalAlignment="Left" Margin="175,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="Re_Click"/>
+        <Button x:Name="_3" Content="D#" HorizontalAlignment="Left" Margin="256,211,0,0" VerticalAlignment="Top" Height="190" Background="#FF0C0707" Foreground="#FFF1E0E0" Click="Re_Dies_Click" Width="58"/>
+        <Button x:Name="_4" Content="E" HorizontalAlignment="Left" Margin="314,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="Mi_Click"/>
+        <Button x:Name="_6" Content="F#" HorizontalAlignment="Left" Margin="475,211,0,0" VerticalAlignment="Top" Height="190" Background="#FF0C0707" Foreground="#FFF1E0E0" Click="Fa_Dies_Click" Width="57"/>
+        <Button x:Name="_5" Content="F" HorizontalAlignment="Left" Margin="394,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="Fa_Click"/>
+        <Button x:Name="_7" Content="G" HorizontalAlignment="Left" Margin="532,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="Sol_Click"/>
+        <Button x:Name="_8" Content="G#" HorizontalAlignment="Left" Margin="613,211,0,0" VerticalAlignment="Top" Height="190" Background="#FF0C0707" Foreground="#FFF1E0E0" Click="Sol_Dies_Click" Width="57"/>
+        <Button x:Name="_9" Content="A" HorizontalAlignment="Left" Margin="670,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="La_Click"/>
+        <Button x:Name="_10" Content="A#" HorizontalAlignment="Left" Margin="751,211,0,0" VerticalAlignment="Top" Height="190" Background="#FF0C0707" Foreground="#FFF1E0E0" Click="La_Dies_Click" Width="57"/>
+        <Button x:Name="_11" Content="B" HorizontalAlignment="Left" Margin="808,261,0,0" VerticalAlignment="Top" Width="81" Height="277" Background="#FFF9F8F8" Click="Si_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="135" Background="#FFC0EEF1" FontFamily="Times New Roman" FontSize="16"><Run Language="ru-ru" Text="Выбирите октаву:"/></TextBlock>
+        <RadioButton x:Name="Fourth_Octave" Content="Октава 4" HorizontalAlignment="Left" Margin="212,43,0,0" VerticalAlignment="Top" Checked="Fourth_Octave_Checked" FontFamily="Times New Roman" FontSize="14" Height="17" IsChecked="True"/>
+        <RadioButton x:Name="Fifth_Octave" Content="Октава 5" HorizontalAlignment="Left" Margin="354,43,0,0" VerticalAlignment="Top" Checked="Fifth_Octave_Checked" FontFamily="Times New Roman" FontSize="14"/>
+        <RadioButton x:Name="Sixth_Octave" Content="Октава 6" HorizontalAlignment="Left" Margin="507,43,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="14" Checked="Sixth_Octave_Checked"/>
+
+    </Grid>
+</Window>
